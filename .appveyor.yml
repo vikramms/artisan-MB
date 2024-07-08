@@ -100,6 +100,8 @@ for:
     fast_finish: false
 
   environment:
+    QT_PATH: "C:/qt/6.5.1/msvc2019_64"  #there is no msvc2022_64 under /qt*
+    PYQT: "6"
     ###QT_PATH: "C:\\qt\\6.4\\msvc2022_64"
     PYUIC: "pyuic6.exe"
     BUILD_PYINSTALLER: "True"
